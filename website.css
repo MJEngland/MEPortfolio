@@ -1,0 +1,56 @@
+#nav {
+  position: fixed;
+  height: 7vh;
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+}
+
+#header {
+  font-family: "Francois One", sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0px;
+}
+
+.header-container {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron{
+  background-image: url("Sea.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#summary {
+  background-color: yellow;
+  box-sizing: border-box;
+  height: 30vh;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+#portfolio {
+  background-color: green;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+#footer {
+  background-color: purple;
+  box-sizing: border-box;
+  height: 20vh;
+  width: 100%;
+  border: 1px solid black;
+}
