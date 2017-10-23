@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 <!-- Bootstrap link -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 <!-- Link to CSS stylesheet website.css -->
     <link href="website.css" type="text/CSS" rel="stylesheet">
 <!-- Meta data to set the screen size and width -->
@@ -19,6 +22,8 @@
     turns to 3 dashes when page shrunk to phone size
     Contains - Home, Portfolio, Skills, Education
 -->
+
+<!-- Navbar section -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -42,18 +47,63 @@
     </div>
     <div id="header" class="jumbotron">
       <h1 class="header-container">Matthew England</h1>
-      <h3 class="header-container">Full Stack Web Developer</h3>
-<!-- takes up whole screen view.
-     background image of myself. Set opacity low(e.g. 0.2)
-     title = Matthew England
-     sub-title = Front-End Web Developer
--->
-
+      <h3 class="header-container animated rollIn">Full Stack Web Developer</h3>
     </div>
+<div id="summary">
 
-    <div id="summary"></div>
-    <div id="portfolio"></div>
-    <div id="footer"></div>
+  <h3>Skills</h3><br />
+
+<div class="row">
+  <div class="col-md-2"><h3>HTML</h3></div>
+  <div class="col-md-2"><h3>CSS</h3></div>
+  <div class="col-md-2"><h3>Bootstrap</h3></div>
+  <div class="col-md-2"><h3>JavaScript</h3></div>
+  <div class="col-md-2"><h3>NodeJS</h3></div>
+  <div class="col-md-2"><h3>MongoDB</h3></div>
+</div>
+<div class="row">
+  <div class="col-md-2"><img class="logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" /></div>
+  <div class="col-md-2"><img class="logo" src="https://www.nctrainingservices.co.uk/images/3rd_party_images/css3_logo.png" /></div>
+  <div class="col-md-2"><img class="logo" src="http://evolve-enterprise.com/wp-content/uploads/2017/01/bootstrap-logo.png" /></div>
+  <div class="col-md-2"><img class="logo" src="http://debugging.co/img/js.png" /></div>
+  <div class="col-md-2"><img class="logo" src="http://www.lnwebworks.com/sites/default/files/node.png" /></div>
+  <div class="col-md-2"><img class="logo" src="https://cacm.acm.org/system/assets/0002/7119/042117_Theodo_MongoDB.large.jpg?1492791427&1492791427" /></div>
+</div>
+<div class="row">
+  <div class="col-md-2"><h3>React</h3></div>
+</div>
+<div class="row">
+  <div class="col-md-2"><img class="logo" src="http://www.unixstickers.com/image/data/stickers/react/badge/React-JS.sh.png" /></div>
+</div>
+</div>
+
+<!-- Portfolio section -->
+    <div id="portfolio" class="container-fluid bg-3 text-center">
+      <h3>Portfolio</h3><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Website 1</p>
+          <img src="https://image.freepik.com/free-vector/background-of-empty-room-with-text-of-coming-soon_1017-5068.jpg" class="portImg img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+          <p>Website 2</p>
+          <img src="https://image.freepik.com/free-vector/background-of-empty-room-with-text-of-coming-soon_1017-5068.jpg" class="portImg img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+          <p>Website 3</p>
+          <img src="https://image.freepik.com/free-vector/background-of-empty-room-with-text-of-coming-soon_1017-5068.jpg" class="portImg img-responsive" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div><br>
+
+<!-- footer section -->
+      <footer class="footer">
+      <div class="container">
+        <a class="btn btn-social-icon btn-twitter">
+   <span class="fa fa-twitter"></span>
+ </a>
+      </div>
+    </footer>
 
   </body>
 
