@@ -1,12 +1,12 @@
 # Portfolio website for Matthew England
 
-##Job History
+## Job History
 
-##Skills
+## Skills
 
-*HTML *CSS *JavaScript *React *Bootstrap
-*NodeJS *MongoDB
-*Pair Programming *Teaching *Management
+* HTML * CSS * JavaScript * React * Bootstrap
+* NodeJS * MongoDB
+* Pair Programming * Teaching * Management
 
 
-##Personal Statement
+## Personal Statement
